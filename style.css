@@ -1,0 +1,19 @@
+.body {
+    position: absolute;
+}
+
+.all {
+    position: absolute;
+}
+
+.encabezado {
+    display: flex;
+    margin-left: 280px;
+    margin-right: 280px;
+    margin-top: 50px;
+    justify-content: center;
+}
+
+.logo {
+    height: 50px;
+}
