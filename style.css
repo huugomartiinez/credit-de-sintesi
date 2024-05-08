@@ -1,19 +1,25 @@
-.body {
-    position: absolute;
-}
-
-.all {
-    position: absolute;
+.todo {
+    margin-top: 50px;
+    margin-left: 300px;
+    margin-right: 300px;
 }
 
 .encabezado {
+    display: grid;
+    grid-template-columns: 1fr 2fr 1fr;
+}
+
+.secciones {
+    display: grid;
+    grid-template-columns: 2fr 2fr 2fr 2fr 2fr;
+    
+}
+
+.contacto {
     display: flex;
-    margin-left: 280px;
-    margin-right: 280px;
-    margin-top: 50px;
-    justify-content: center;
+    flex-wrap: wrap;
 }
 
 .logo {
-    height: 50px;
+    height: 60px;
 }
