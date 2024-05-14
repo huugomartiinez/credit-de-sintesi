@@ -2,11 +2,13 @@
     margin-top: 50px;
     margin-left: 300px;
     margin-right: 300px;
+    margin-bottom: 50px;
 }
 
 .encabezado {
     display: grid;
     grid-template-columns: 1fr 2fr 1fr;
+    margin-bottom: 50px;
 }
 
 .secciones {
@@ -22,4 +24,22 @@
 
 .logo {
     height: 60px;
+}
+
+.personaordenador {
+    height: 800px;
+    position: relative;
+}
+
+.personaordenador2 {
+    height: 800px;
+    position: relative;
+    top: -800px;
+}
+
+.fotoyletras {
+    border: solid;
+    border-color: black;
+    height: 800px;
+    position: absolute;
 }
