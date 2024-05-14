@@ -29,17 +29,63 @@
 .personaordenador {
     height: 800px;
     position: relative;
+    float: left;
 }
 
 .personaordenador2 {
     height: 800px;
     position: relative;
-    top: -800px;
+    left: -840px;
 }
 
 .fotoyletras {
-    border: solid;
-    border-color: black;
     height: 800px;
-    position: absolute;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+}
+
+.letras {
+    position: relative;
+    margin-top: 150px;
+    top: -800px;
+    width: 500px;
+    margin-left: 50px;
+    background-color: white;
+    height: 400px;
+    text-align: center;
+}
+
+.numero {
+    position: relative;
+    top: 50px;
+    height: 50px;
+    margin-right: 50px;
+    background-color: rgb(170, 170, 247);
+    width: 150px;
+    float: right;
+    border-radius: 5%;
+}
+
+.numeroblanco {
+    color: white;
+}
+
+.informacion {
+    position: relative;
+    top: 32px;
+    height: 50px;
+    margin-right: 50px;
+    background-color: rgb(170, 170, 247);
+    width: 200px;
+    float: right;
+    border-radius: 5%;
+}
+
+.quieroinfo {
+    color: white;
+}
+
+.estabilidad {
+    position: relative;
+    left: -1220px;
 }
