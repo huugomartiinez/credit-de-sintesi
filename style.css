@@ -13,7 +13,7 @@
 
 .secciones {
     display: grid;
-    grid-template-columns: 2fr 2fr 2fr 2fr 2fr;
+    grid-template-columns: 2fr 2fr 2fr 2fr;
     
 }
 
@@ -88,4 +88,26 @@
 .estabilidad {
     position: relative;
     left: -1220px;
+}
+
+.mantenimiento {
+    height: 800px;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+}
+
+.mantenimiento-de-redes-y-servidores {
+    position: relative;
+    left: -300px;
+    height: 800px;
+}
+
+.mantenimientoletras {
+    border: solid;
+    border-color: blue;
+    position: relative;
+    height: 200px;
+    width: 200px;
+    left: -1850px;
+    top: 150px;
 }
