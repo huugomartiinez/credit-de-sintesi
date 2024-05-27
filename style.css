@@ -64,6 +64,8 @@
     width: 150px;
     float: right;
     border-radius: 5%;
+    text-align: center;
+
 }
 
 .numeroblanco {
@@ -79,6 +81,8 @@
     width: 200px;
     float: right;
     border-radius: 5%;
+    text-align: center;
+
 }
 
 .quieroinfo {
@@ -103,11 +107,22 @@
 }
 
 .mantenimientoletras {
-    border: solid;
-    border-color: blue;
     position: relative;
-    height: 200px;
+    height: 300px;
     width: 500px;
     left: -1950px;
     top: 150px;
+}
+
+.numero2 {
+    position: relative;
+    top: 30px;
+    height: 50px;
+    margin-right: 50px;
+    background-color: rgb(170, 170, 247);
+    width: 150px;
+    float: right;
+    border-radius: 5%;
+    text-align: center;
+
 }
