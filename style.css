@@ -96,13 +96,15 @@
 
 .mantenimiento {
     height: 800px;
+    width: 1530px;
     display: grid;
     grid-template-columns: 1fr 1fr;
+    overflow: hidden;
 }
 
 .mantenimiento-de-redes-y-servidores {
     position: relative;
-    left: -300px;
+    left: -400px;
     height: 800px;
 }
 
@@ -125,4 +127,12 @@
     border-radius: 5%;
     text-align: center;
 
+}
+
+.nuestros {
+    margin-top: 50px;
+}
+
+.titulo {
+    font-size: 40px;
 }
