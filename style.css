@@ -139,10 +139,14 @@
 
 .textos {
     display: grid;
-    grid-template-columns: 1fr 0.3fr 1fr;
+    grid-template-columns: 1fr 0.2fr 1fr;
     margin-top: 50px;
 }
 
 .textoss {
+    font-size: 20px;
+}
+
+.parrafos {
     font-size: 20px;
 }
