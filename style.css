@@ -150,3 +150,39 @@
 .parrafos {
     font-size: 20px;
 }
+
+.tituloazul {
+    font-size: 30px;
+    color: rgb(170, 170, 247);
+}
+
+.dosdivs {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+}
+
+.divazul {
+    background-color: rgb(170, 170, 247);
+    margin-top: 50px;
+    height: 700px;
+}
+
+.divblanco {
+    background-color: antiquewhite;
+    margin-top: 50px;
+    height: 700px;
+}
+
+.tituloblanco {
+    font-size: 40px;
+    color: antiquewhite;
+    margin-top: 10px;
+    margin-left: 10px;
+}
+
+.textosblanco {
+    font-size: 20px;
+    margin-left: 10px;
+    color: antiquewhite;
+    margin-top: 40px;
+}
