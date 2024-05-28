@@ -1,3 +1,8 @@
+body {
+    padding: 0;
+    margin: 0;
+}
+
 .todo {
     margin-top: 50px;
     margin-left: 300px;
@@ -26,33 +31,27 @@
     height: 60px;
 }
 
-.personaordenador {
-    height: 800px;
-    position: relative;
-    float: left;
-}
 
 .personaordenador2 {
     height: 800px;
     position: relative;
-    left: -840px;
+    text-align: center;
 }
 
 .fotoyletras {
-    height: 800px;
-    display: grid;
-    grid-template-columns: 1fr 1fr;
+
 }
 
 .letras {
-    position: relative;
+    position: absolute;
     margin-top: 150px;
-    top: -800px;
     width: 500px;
     margin-left: 50px;
     background-color: white;
     height: 400px;
     text-align: center;
+    padding: 10px;
+    z-index: 10;
 }
 
 .numero {
@@ -89,10 +88,8 @@
     color: white;
 }
 
-.estabilidad {
-    position: relative;
-    left: -1220px;
-}
+
+
 
 .mantenimiento {
     height: 800px;
@@ -262,4 +259,13 @@
 .textotips {
     margin-right: 30px;
     margin-top: -20px;
+}
+
+.footer-in {
+    background-color:rgb(119, 119, 239);
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    padding: 50px;
+    padding-left: 250px;
+    padding-right: 250px;
 }
