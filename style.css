@@ -185,4 +185,60 @@
     margin-left: 10px;
     color: antiquewhite;
     margin-top: 40px;
+    margin-right: 10px;
+
+}
+
+.textosblanco1 {
+    font-size: 20px;
+    margin-left: 10px;
+    color: antiquewhite;
+    margin-top: 40px;
+    text-align: center;
+    margin-right: 10px;
+}
+
+.numeroazul {
+    font-size: 50px;
+    margin-left: 10px;
+    color: antiquewhite;
+    margin-top: 40px;
+    text-align: center;
+}
+
+.espera {
+    font-size: 30px;
+    margin-left: 10px;
+    margin-top: 40px;
+    margin-right: 10px;
+}
+
+.titulonegro {
+    font-size: 40px;
+    margin-top: 10px;
+    margin-left: 10px;
+    margin-right: 10px;
+}
+
+.textosnegro {
+    font-size: 20px;
+    margin-left: 10px;
+    margin-top: 40px;
+    margin-right: 10px;
+
+}
+
+.numeroblanco1 {
+    font-size: 50px;
+    margin-left: 10px;
+    margin-top: 40px;
+    text-align: center;
+}
+
+.textosnegro1 {
+    font-size: 20px;
+    margin-left: 10px;
+    margin-top: 40px;
+    text-align: center;
+    margin-right: 10px;
 }
