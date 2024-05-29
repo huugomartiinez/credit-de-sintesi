@@ -273,3 +273,46 @@ body {
 }
 .footer-col {
 }
+
+.a {
+    width: 100%;
+    text-align: center;
+}
+
+.tituloa {
+    font-size: 30px;
+    color: rgb(119, 119, 239);
+}
+
+.b {
+    width: 100%;
+}
+
+.letrasa {
+    font-size: 20px;
+}
+
+.fotoss {
+    height: 400px;
+    width: 100%;
+    overflow: hidden;
+    text-align: center;
+    padding-top: 50px;
+}
+
+
+.fotosss {
+    height: 400px;
+    background-color: rgb(119, 119, 239);
+    float: right;
+    width: 100%;
+}
+
+.fotoo {
+    height: 400px;
+}
+
+.subtitulos {
+    font-size: 25px;
+    color: rgb(119, 119, 239);
+}
