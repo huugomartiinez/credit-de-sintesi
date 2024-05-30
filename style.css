@@ -271,8 +271,6 @@ body {
     color: antiquewhite;
     font-size: 20px;
 }
-.footer-col {
-}
 
 .a {
     width: 100%;
@@ -315,4 +313,26 @@ body {
 .subtitulos {
     font-size: 25px;
     color: rgb(119, 119, 239);
+}
+
+.ticks {
+    width: 100%;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr 1fr 1fr;
+}
+
+.textoe {
+    font-size: 30px;
+}
+
+.copias {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    padding-top: 30px;
+}
+
+.copiass {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    margin-top: -20px;
 }
